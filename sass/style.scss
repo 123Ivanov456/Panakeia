@@ -206,3 +206,79 @@ body {
 
 	 }
 }
+
+/**________________________________________________news*/
+
+.news {
+	background-color: #edeff1;
+}
+
+.conteiner--main-news {
+	padding-top: 80px;
+}
+
+.news__title {
+	margin: 0 auto;
+	margin-bottom: 80px;
+	& h2 {
+		padding: 0;
+		margin: 0;
+		font-family: 'Roboto Slab', serif;
+		font-size: 30px;
+		line-height: 30px;
+		font-weight: bold;
+		text-align: center;
+	}
+}
+
+.news-content {
+	width: 371px;
+	float: left;
+	margin-right: 28px;
+	text-align: center;
+	padding-bottom: 100px;
+
+	&:last-child{
+		margin-right: 0;
+	}
+
+	& b {
+		display: inline-block;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 13px;
+		
+	}
+
+	& p {
+		padding: 0;
+		margin: 0;
+		font-size: 15px;
+		line-height: 30px;
+		font-family: "Myriad Pro Regular", Arial, sans-serif;
+		margin-bottom: 30px;
+
+	}
+
+	& button {
+		background-color: #fff;
+
+		& a {
+			font-family: 'Roboto Light', arial;
+			color: #4e5159;
+			line-height: 30px;
+			padding: 10px 55px;
+
+		}
+	}
+}
+
+
+
+.news-content__foodPfoto {
+	width: 371px;
+	height: auto;
+	margin-bottom: 37px;
+
+}
